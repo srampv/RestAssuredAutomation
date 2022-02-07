@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 3.021 s <<< FAILURE! - in TestSuite
+RESTAPITesting.Framework.SamplePostTest.samplePostTest1  Time elapsed: 0.106 s  <<< FAILURE!
+java.lang.UnsupportedOperationException: Attempted to serialize java.lang.Class: java.lang.reflect.AccessibleObject. Forgot to register a type adapter?
+	at RESTAPITesting.Framework.SamplePostTest.samplePostTest1(SamplePostTest.java:25)
+
+RESTAPITesting.Framework.SampleTest.sampletest1  Time elapsed: 1.809 s  <<< FAILURE!
+java.net.ConnectException: Connection refused (Connection refused)
+	at RESTAPITesting.Framework.SampleTest.sampletest1(SampleTest.java:15)
+
+RESTAPITesting.Framework.SampleTest.sampletest2  Time elapsed: 0.045 s  <<< FAILURE!
+java.net.ConnectException: Connection refused (Connection refused)
+	at RESTAPITesting.Framework.SampleTest.sampletest2(SampleTest.java:27)
+
+RESTAPITesting.Framework.SampleTest.sampletest3  Time elapsed: 0.008 s  <<< FAILURE!
+java.net.URISyntaxException: Illegal character in path at index 37: http://localhost:8080/app/videogames/{PathParamsmap}
+	at RESTAPITesting.Framework.SampleTest.sampletest3(SampleTest.java:40)
+
